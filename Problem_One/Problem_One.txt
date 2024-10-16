@@ -1,0 +1,33 @@
+Matthew Dingman
+Professor Qouneh
+CPE 422-01
+October 15, 2024
+
+Problem One Answers
+
+1. Explain how stringcmp works. [5 points]
+
+		The command "stringcmp" is being used in the program makeLED.c to check the first argument being input into the script. If the first argument
+		matches any of the conditions for the script, it will pass through the if statement corresponding to that condition. In a general sense,
+		"stringcmp" is used to compare two strings, passing a boolean value of 1 or 0 depending on if they match or not.
+
+2. Explain the statement: FILE* fp; [5 points]
+
+		The statement "FILE* fp;" is used to define the pointer "fp" with the type "FILE", which allows the pointer to store information about the 
+		file. This lets the pointer fp be used for file commands, such as "fopen()" and "fclose()".
+
+
+3. Explain how sprintf works. [5 points]
+
+		The command "sprintf" is being used in the program makeLED.c to print the path and filename to the string "fullfilename". This is being done
+		so that the string "fullfilename" can be referenced to call the file as opposed to typing out the whole string every time it needs to be 
+		referenced. In general, this command will send any string to a string variable as opposed to displaying it in the console.
+
+4. Explain how fprintf works. [5 points]
+
+		The command "fprintf" is being used in the program makeLED.c to print the value input when running the writeLED function to the file. 
+		In general, this command will send any string to a FILE variable as oppsoed to displaying it in the console.
+
+5. Explain how fgets works. [5 points]
+
+		The command "fgets" is being used in the program makeLED.c to retrieve the status of the LED. This is done via string because the value is stored		 in a text file and output to the console. In general, this command will retrieve a string from a file.
